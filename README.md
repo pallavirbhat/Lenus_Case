@@ -1,5 +1,4 @@
-# Lenus_Case
-# Feature Selection for Classification Model
+### Feature Selection for Classification Model
 
 The code is divided into the following sections with notes / observations after each output:
 
