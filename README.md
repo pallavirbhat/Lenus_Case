@@ -1,8 +1,9 @@
 # Lenus_Case
-Feature Selection for Classification Model
+# Feature Selection for Classification Model
 
-Approach
+The code is divided into the following sections with notes / observations after each output:
 
+Data Preparation
 1. Preprocessing
 - Data granularity and keys understanding
 - Missing values analysis, imputation and evalutation
@@ -14,18 +15,19 @@ Approach
 - Barplots for categorical features (X-y)
 - Scatterplots and histograms for numerical features (X-X and X-y)
 
-Feature Selection
-1. Heuristic Methods
+Feature Selection (and Model Development)
+
+3. Heuristic Methods
 - Vizualisations
 - Statistical Measures
 - Correlations
 - Variance Inflation Factor 
 
-2. Filter Methods
+4. Filter Methods
 - ANOVA Test for continuous features
 - Chi-Square Test for categorical features
    
-3. Embedded Methods
+5. Embedded Methods
 - Feature Importance analysis using tree-based models
 - Algorithms: Decision Tree, XGboost
 - Model tuning, cross-validation using Gridsearch
